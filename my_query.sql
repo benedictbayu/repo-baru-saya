@@ -2,4 +2,4 @@ SELECT
 	*
 FROM Products
 WHERE 
-	category = "Handphone"
+	category = "Handphone" AND price < 5000000
